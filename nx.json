@@ -10,5 +10,16 @@
     ],
     "sharedGlobals": []
   },
-  "nxCloudAccessToken": "ZDY1ZTE5MzUtNTA2Yy00NjAwLWE3ZmQtOGY5ZmVhZGQ4YTY3fHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "ZDY1ZTE5MzUtNTA2Yy00NjAwLWE3ZmQtOGY5ZmVhZGQ4YTY3fHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/remix/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "devTargetName": "dev",
+        "typecheckTargetName": "typecheck"
+      }
+    }
+  ]
 }
